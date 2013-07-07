@@ -79,6 +79,7 @@ TestResults/
 # Various IDE     #
 ###################
 #.idea/
+.idea/workspace.xml
 
 
 #############
