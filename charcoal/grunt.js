@@ -335,11 +335,11 @@ module.exports = {
               var moduleName = folder.slice(0, folder.length-1);
 
               // app/modules/my_module/index.handlebars => "my_module"
-              if (name === "index") {
+              if (name === "index" && !sourceFile.indexOf('templates')) {
                 return moduleName;
               }
             }
-            return filename;
+            return filename.replace('/templates/', '/');
           }
           return sourceFile;
         }
