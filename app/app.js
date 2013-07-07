@@ -1,4 +1,13 @@
-window.FireUpEmber = Ember.Application.create();
+window.FireUpEmber = Ember.Application.create({
+    LOG_TRANSITIONS: true,
+    LOG_VIEW_LOOKUPS: true,
+    LOG_ACTIVE_GENERATION: true
+});
+
+Ember.LOG_VERSION = true;
+//Ember.LOG_BINDINGS = true;
+Ember.LOG_STACKTRACE_ON_DEPRECATION = true;
+
 
 // Default load order. Override as you see fit.
 require("store");
@@ -32,3 +41,24 @@ FireUpEmber.IndexModel.FIXTURES = [
     id: 4
   }
 ];
+
+FireUpEmber.Table.FIXTURES = [
+    {
+        id: 1
+    },
+    {
+        id: 2
+    },
+    {
+        id: 3
+    },
+    {
+        id: 4
+    },
+    {
+        id: 5
+    },
+    {
+        id: 6
+    },
+]
