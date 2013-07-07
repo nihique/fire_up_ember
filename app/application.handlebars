@@ -1,5 +1,20 @@
-<h1>Fire Up Ember</h1>
-<hr />
-<div class="span12">
-    {{outlet}}
+<div class="container">
+
+    <header class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="#/">Fire Up Ember</a>
+                <ul class="nav">
+                    <li class="active"><a href="#/">Home</a></li>
+                    <li><a href="#/tables">Tables</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="main" class="row">
+        {{outlet}}
+    </section>
+
 </div>

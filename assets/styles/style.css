@@ -1,5 +1,24 @@
-/* Put your CSS here */
-html, body {
-    margin: 20px;
+body {
+    padding-top: 60px;
 }
 
+#tables a {
+    height: 100px;
+    line-height: 100px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#tables a:hover {
+    background: #808080;
+    text-decoration: none;
+}
+
+#tables a.active {
+    background: ghostwhite;
+    color: #000000;
+}
