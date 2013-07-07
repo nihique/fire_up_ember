@@ -22,3 +22,9 @@ body {
     background: ghostwhite;
     color: #000000;
 }
+
+@media screen and (max-width: 979px) {
+    body {
+        padding-top: 0;
+    }
+}
