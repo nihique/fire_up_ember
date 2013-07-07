@@ -1,0 +1,2 @@
+FireUpEmber.Router.map(function() {
+});
