@@ -3,10 +3,10 @@ body {
 }
 
 #tables a {
+    color: #000000;
+    background-color: #ddd;
     height: 100px;
     line-height: 100px;
-    background: #000000;
-    color: #ffffff;
     font-size: 60px;
     text-align: center;
     margin-bottom: 20px;
@@ -14,13 +14,14 @@ body {
 }
 
 #tables a:hover {
-    background: #808080;
+    color: #ffffff;
+    background-color: darkgrey;
     text-decoration: none;
 }
 
 #tables a.active {
-    background: #eee;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 979px) {
