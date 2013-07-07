@@ -7,7 +7,7 @@ FireUpEmber.TablesRoute = Ember.Route.extend({
         this.render('order_manager/tables', {
             outlet: 'tables',
             into: 'order_manager/index'
-        })
+        });
     }
-})
+});
 

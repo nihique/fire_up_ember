@@ -64,5 +64,5 @@ FireUpEmber.Table.FIXTURES = [
     },
     {
         id: 6
-    },
-]
+    }
+];
