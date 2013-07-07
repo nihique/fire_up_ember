@@ -1,5 +1,7 @@
-# Fire_up_ember
+# FireUpEmber
 
-A new Ember.js application created with [Charcoal](https://github.com/thomasboyt/charcoal).
+This is toy app to learn Ember.js, inspired using PeepCode screen cast "Fire Up Ember.js"
+
+## Development
 
 For development information, see `charcoal/readme.md`.
