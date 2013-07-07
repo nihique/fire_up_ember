@@ -19,7 +19,7 @@ body {
 }
 
 #tables a.active {
-    background: ghostwhite;
+    background: #eee;
     color: #000000;
 }
 
